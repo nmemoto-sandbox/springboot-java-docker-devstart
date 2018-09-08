@@ -1,0 +1,10 @@
+spring:
+  profiles: dev
+  devtools:
+    remote:
+      secret: secretkey
+  datasource:
+    url:  jdbc:postgresql://database/devstart_db
+    username: devstart
+    password: devstart_password
+    driverClassName: org.postgresql.Driver
